@@ -1,0 +1,18 @@
+&pro_micro_i2c {
+        status = "okay";
+
+    glidepoint: glidepoint@0 {
+        compatible = "cirque,pinnacle";
+        reg = <0>;
+        status = "okay";
+        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_LOW)>;
+
+        sensitivity = "4x";
+        sleep;
+        no-taps;
+    };
+};
+
+&glidepoint_split {
+    device = <&glidepoint>;
+};
