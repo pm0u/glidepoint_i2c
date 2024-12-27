@@ -1,2 +1,2 @@
 config SHIELD_GLIDEPOINT_I2C_SPLIT
-                def_bool $(shields_list_contains,glidepoint_i2c_split)
+  def_bool $(shields_list_contains,glidepoint_i2c_split)
