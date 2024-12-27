@@ -2,6 +2,6 @@ file_format: "1"
 id: glidepoint_i2c_split_peripheral
 name: Glidepoint i2c Connection (Peripheral)
 type: shield
-url: https://github.com/pm0u/glidepoint_i2c_split_peripheral
+url: https://github.com/pm0u/glidepoint_i2c
 features:
   - pointer

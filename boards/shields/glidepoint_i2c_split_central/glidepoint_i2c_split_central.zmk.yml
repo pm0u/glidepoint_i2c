@@ -2,4 +2,4 @@ file_format: "1"
 id: glidepoint_i2c_split_central
 name: Glidepoint i2c Connection (Central)
 type: shield
-url: https://github.com/pm0u/glidepoint_i2c_split_central
+url: https://github.com/pm0u/glidepoint_i2c
