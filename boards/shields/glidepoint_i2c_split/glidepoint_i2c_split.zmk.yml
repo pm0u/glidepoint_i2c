@@ -1,6 +1,0 @@
-file_format: "1"
-id: glidepoint_i2c_split
-name: Glidepoint i2c Split Support
-type: shield
-url: https://github.com/pm0u/glidepoint_i2c_split
-exposes: [glidepoint_i2c_split_header]

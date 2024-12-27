@@ -3,4 +3,3 @@ id: glidepoint_i2c_split_central
 name: Glidepoint i2c Connection (Central)
 type: shield
 url: https://github.com/pm0u/glidepoint_i2c_split_central
-requires: [glidepoint_i2c_split_header]

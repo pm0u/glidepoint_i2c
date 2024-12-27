@@ -3,4 +3,5 @@ id: glidepoint_i2c_split_peripheral
 name: Glidepoint i2c Connection (Peripheral)
 type: shield
 url: https://github.com/pm0u/glidepoint_i2c_split_peripheral
-requires: [glidepoint_i2c_split_header]
+features:
+  - pointer
