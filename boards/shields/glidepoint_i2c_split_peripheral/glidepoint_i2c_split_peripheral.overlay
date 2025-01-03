@@ -4,15 +4,18 @@
     status = "okay";
 };
 
-glidepoint_i2c: &i2c0 {
-    compatible = "cirque,pinnacle";
-    status = "okay";
+&i2c0 {
+    glidepoint: glidepoint@0 {
+        compatible = "cirque,pinnacle";
+        status = "okay";
+        reg = <0>;
 
-    sensitivity = "4x";
-    sleep;
-    no-taps;
+        sensitivity = "4x";
+        sleep;
+        no-taps;
+    };
 };
 
 &glidepoint_split {
-    device = <&glidepoint_i2c>;
+    device = <&glidepoint>;
 };
