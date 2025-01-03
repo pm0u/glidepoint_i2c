@@ -6,9 +6,6 @@
 
 glidepoint_i2c: &i2c0 {
     compatible = "cirque,pinnacle";
-    reg = <0>;
-    #address-cells = <0>;
-    #size-cells = <0>;
     status = "okay";
 
     sensitivity = "4x";
