@@ -12,7 +12,6 @@
 
         sensitivity = "4x";
         sleep;
-        no-taps;
     };
 };
 
