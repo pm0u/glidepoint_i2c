@@ -30,6 +30,7 @@
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
+    clock-frequency = <I2C_BITRATE_STANDARD>;
      
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
