@@ -13,7 +13,8 @@
         group1 {
             psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
                 <NRF_PSEL(TWIM_SCL, 0, 20)>;
-            bias-pullup;
+            drive-mode = <NRF_DRIVE_S0D1>;       /* Standard drive, pull-up */
+
         };
     };
 
@@ -27,7 +28,6 @@
 };
 
 &i2c0 {
-    compatible = "nordic,nrf-twi";
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
