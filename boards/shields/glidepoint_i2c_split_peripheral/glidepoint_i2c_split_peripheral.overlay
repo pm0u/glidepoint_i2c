@@ -4,7 +4,13 @@
     status = "okay";
 };
 
+&oled {
+    status = "disabled";
+};
+
 &i2c0 {
+    bias-pullup;
+
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
         status = "okay";
